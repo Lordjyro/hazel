@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Baby </title>
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #66a6ff, #89f7fe);
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin-top: 40px;
+            font-size: 2.5em;
+            color: #fff;
+            text-shadow: 2px 2px 8px #ff6b81;
+        }
+
+        .gallery {
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        video {
+            margin-top: 30px;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        button {
+            margin-top: 30px;
+            background-color: #ff6b81;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ff4757;
+        }
+
+        #message {
+            margin-top: 20px;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            display: none;
+        }
+
+        footer {
+            margin-top: 40px;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1> HAPPY BIRTHDAY BABY! </h1>
+    <p> </p>
+
+    <div class="gallery">
+        <img src="wiw.jpg" alt="Memory 1">
+        <img src="wew.jpg" alt="Memory 2">
+        <img src="wow.jpg" alt="Memory 3">
+        <img src="photo4.jpg" alt="Memory 4">
+        <img src="photo5.jpg" alt="Memory 5">
+        <img src="photo6.jpg" alt="memory 6">
+        <img src="photo7.jpg" alt="memory 7">
+    </div>
+
+    <video controls>
+        <source src="https://youtu.be/osRhJjvNSds?si=0cyggRlg-qfqgMM3" type="video/mp4">
+        Your browser does not support video playback.
+    </video>
+
+    <div>
+        <button onclick="showMessage()">Lihug Click a!</button>
+        <p id="message">kjjfkjweb sdfslkfbweflew lkskfnslgbrgls klksnslgslkbfes slgb slkgbslkbgslkbg s kleblskbgel fglksb  leglksbgslkbgeks gksbgklsbglesbgls lksbglksbglks sgbslkgbslkgbe elkfewfwnew kegwelknwe gkeng ewkgnwek ewgkewnk gwekg ewkgbewl gweb glkwbeglewk  ewkbglkwe bglkw bewk bgkwl bgkwle bewlkbgewlkbgewlk ekgbwlfwlf elewlgjewkfew ekgjewlkghwe.</p>
+    </div>
+
+    <footer> 🎊12-20-2025🎊</footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").style.display = "block";
+        }
+    </script>
+</body>
+</html>
